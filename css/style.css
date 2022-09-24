@@ -1,0 +1,190 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    font-family: cairo;
+}
+body{
+    direction: rtl;
+
+}
+@font-face {
+    font-family: cairo;
+    src: url('../fonts/Cairo-SemiBold.ttf');
+}
+header{
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 800px;
+}
+
+header .headlogo{
+    display: inline-block;
+    margin: 100px auto 60px;
+    padding-bottom: 35px;
+    /* border-bottom: 5px solid #464c53; */
+    /* overflow: hidden; */
+}
+.Logo2{
+    padding-left: 30px;
+    position: relative;
+
+}
+
+.Logo2::after {
+    top: 42px;
+    left: 21px;
+    content: "";
+    width: 95%;
+    height: 5px;
+    background-color: rgb(238 229 238 / 27%);
+    position: absolute;
+}
+ header h1{
+    font-size: 60px;
+    color: white;
+    line-height: 60px;
+ }
+ header p{
+    font-size: 18px;
+    color: #acacac;
+    width: 44%;
+ }
+
+ header.count-down{
+    width: 60%;
+    margin: 90px auto;
+ }
+
+ .count-down .counter{
+    display: inline-block;
+    margin: 0 15px;
+ }
+.counter .amount{
+    display: block;
+    font-size: 60px;
+    color: yellow;
+}
+.counter .period{
+    display: block;
+    font-size: 30px;
+    color: bisque;
+}
+
+.mail{
+text-align: center;
+/* width: 50%; */
+}
+.mail #input{
+    width: 295px;
+    height: 67px;
+    border: 2px solid #eee;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.mail #input2{
+    width: 295px;
+    height: 67px;
+    border: 2px solid #eee;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.mail .b1 {
+    padding: 13px 33px;
+    background-color:#ffce00;
+    border-radius: 0;
+    margin: 0-4px;
+}
+.mail .b2 {
+    padding: 13px 33px;
+    background-color:#393939;
+    border-radius: 0;
+    margin: 0-4px;
+}
+
+.container{
+margin: 100px ;
+
+}
+.container .row{
+    padding: 50px;
+}
+.container .row .d-flex{
+    border: 2px solid #fafafa;
+    margin-bottom: 20px;
+    padding: 40px 10px;
+
+}
+section.features .row .col-md-6:nth-child(even){
+    direction: ltr;
+}
+#invalid-mail{
+    visibility: hidden;
+}
+#valid-mail{
+    visibility: hidden;
+}
+#invalid-mail2{
+    visibility: hidden;
+}
+#valid-mail2{
+    visibility: hidden;
+}
+footer{
+    background-image: url('../images/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.sendmail{
+    background-color: rgba(255, 206, 0, 0.9);
+}
+.sendmail h3{
+    font-size: 30px;
+    padding: 60px;
+}
+.social{
+    background-color: rgba(28, 28, 28, .9);
+    padding: 100px 0 30px;
+}
+.social h3{
+    font-size: 30px;
+    color: #fff;
+    margin-right: 30px;
+}
+ul li{
+    display: inline-block;
+    margin-right: 7px;
+}
+ul li i{
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    line-height: 70px;
+    background-color: #393939;
+    opacity: 60%;
+    color: white;
+    padding: 22px;
+    margin-top: 40px;
+    transition: .5s;
+}
+
+ul li i:hover{
+    background-color: #fad32f;
+    opacity: 1;
+}
+
+.social hr{
+    width: 40%;
+    color: #eee;
+    margin: 50px auto 30px;
+}
+.mmail{
+    text-decoration: none;
+    color: #eee;
+}
+.mmail i{
+    padding-right: 20px;
+    margin-left: 7px;
+}
