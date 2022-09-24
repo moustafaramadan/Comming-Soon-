@@ -192,7 +192,7 @@ ul li i:hover{
     margin-left: 7px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 590px){
     header{
         width: 213%;
     }
