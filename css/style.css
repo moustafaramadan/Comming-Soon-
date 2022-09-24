@@ -74,7 +74,9 @@ header .headlogo{
 
 .mail{
 text-align: center;
-/* width: 50%; */
+position: absolute;
+top: 771px;
+right: 38%;
 }
 .mail #input{
     width: 295px;
@@ -187,4 +189,19 @@ ul li i:hover{
 .mmail i{
     padding-right: 20px;
     margin-left: 7px;
+}
+
+@media (max-width: 576px){
+    header{
+        width: 200%;
+    }
+    form{
+        width: 150%;
+    }
+    main{
+        width: 180%; 
+    }
+    footer{
+        width: 200%;
+    }
 }
