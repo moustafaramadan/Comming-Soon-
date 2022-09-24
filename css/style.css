@@ -194,15 +194,13 @@ ul li i:hover{
 
 @media (max-width: 600px){
     header{
-        width: 213%;
+        width: 200%;
     }
-    form{
-        width: 150%;
-    }
+
     main{
-        width: 180%; 
+        width: 140%; 
     }
     footer{
-        width: 213%;
+        width: 200%;
     }
 }
